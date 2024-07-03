@@ -1,6 +1,4 @@
-require(`dotenv`).config();
-
-const apiKey = process.env.API_KEY;
+const apiKey = "5b7d94eb2fc959eb774f78742236fe25";
 
 const weatherDataEle = document.querySelector(".weather-data");
 const cityInputEle = document.querySelector("#city-input");
@@ -66,5 +64,11 @@ async function getcityWeather(cityName) {
     ).textContent = `Wind Speed:${humidity}m/s`;
   } catch (error) {
     console.log(error);
+    weatherDataEle.querySelector(".temp").textContent = "";
+    weatherDataEle.querySelector(".desc").textContent = "City not found";
+    iconEle.innerHTML = "";
+    datailsEle.querySelector(".detail1").textContent = "";
+    datailsEle.querySelector(".detail2").textContent = "";
+    datailsEle.querySelector(".detail3").textContent = "";
   }
 }
