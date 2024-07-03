@@ -11,9 +11,6 @@ A simple weather application that fetches and displays weather data for a specif
 - Displays temperature, weather description, feels like temperature, humidity, and wind speed
 - Handles errors gracefully, displaying a message when the city is not found
 
-## Demo
-
-![Weather App Screenshot](path-to-your-screenshot.png)
 
 ## Installation
 
