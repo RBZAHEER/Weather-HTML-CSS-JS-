@@ -1,4 +1,6 @@
-const apiKey = "5b7d94eb2fc959eb774f78742236fe25";
+require(`dotenv`).config();
+
+const apiKey = process.env.API_KEY;
 
 const weatherDataEle = document.querySelector(".weather-data");
 const cityInputEle = document.querySelector("#city-input");
