@@ -16,7 +16,7 @@ A simple weather application that fetches and displays weather data for a specif
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/RBZAHEER/Weather-HTML-CSS-JS-.git
    cd weather-app
    ```
 
